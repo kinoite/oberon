@@ -11,11 +11,12 @@ async fn main() {
         eprintln!("Usage: oberon <command> [options]");
         return;
     }
-
+    
     match args[1].as_str() {
         "install" => install::execute(&args[2..]).await,
         "remove" => remove::execute(&args[2..]),
         "update" => update::execute().await,
+        "upgrade" => upgrade::execute().await,
         "sync" => sync::execute().await,
         "addrepo" => addrepo::execute(&args[2..]),
         "chooserepo" => chooserepo::execute(&args[2..]),
