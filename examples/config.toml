@@ -1,1 +1,8 @@
+# The Oberon packages are written in TOML for user-friendly and developer-friendlyness.
 
+[config]
+cache_dir = "~/.oberon/cache"
+registry_url = "http://darrengames.ddns.net:1500/repo/x86_64"
+
+[logging]
+level = "info"
