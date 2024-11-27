@@ -1,4 +1,4 @@
-# The Oberon packages are written in TOML for user-friendly and developer-friendlyness.
+# Oberon config file. In TOML. 
 
 [config]
 cache_dir = "~/.oberon/cache"
